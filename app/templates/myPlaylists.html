@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+	Playlists
+{% endblock %}
+
+{% block content %}
+	<h1>Your Spotify Playlists</h1>
+	<div class="main-container">
+		<ul>
+		{% for playlist in playlists %}
+			<li class='playlist-item'>
+				<span class='playlist-name'>{{ playlist.name }}</span>
+				<img class='playlist-img' src='{{ playlist.image }}'>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+
+{% endblock %}

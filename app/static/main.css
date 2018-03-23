@@ -1,0 +1,162 @@
+/*----------------- CSS RESET ------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------- CSS RESET ------------------*/
+
+html, body {
+	background-color: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background-color: #1ED762;
+	box-shadow: 0 2px 6px 1px #a7a7a7;
+	color: #ecf0f1;
+	height: 5rem;
+}
+
+footer {
+	background-color: #00A41D;
+	bottom: 0;
+	color: #ecf0f1;
+	height: 7rem;
+	margin-top: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	height: 7rem;
+	line-height: 7rem;
+}
+
+h1, h3 {
+	padding: 4px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+#site-title-wrapper {
+	display: inline-block;
+	height: 5rem;
+	width: 40%;
+}
+
+#site-icon-wrapper {
+	display: inline-block;
+	margin-left: 1rem;
+	margin-top: -.5rem;
+	vertical-align: middle;
+	width: 2.5rem;
+}
+
+#site-icon-wrapper img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%
+}
+
+#site-title {
+	display: inline-block;
+	font-weight: bold;
+	height: 5rem;
+	line-height: 5rem;
+	margin-left: .1rem;
+}
+
+.main-container {
+	background: none;
+	min-height: 50vh;
+	text-align: center;
+	width: 100%;
+}
+
+#content {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.playlist-item {
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: 2rem;
+	position: relative;
+	text-align: left;
+	width: 48%;
+}
+
+.playlist-item img {
+	min-width: 100%;
+}
+
+.playlist-name {
+	background: #ffffff;
+	display: inline-block;
+	font-size: 3rem;
+	font-weight: bold;
+	height: auto;
+	left: 0;
+	line-height: 5rem;
+	opacity: 0.7;
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	width: 100%;
+}
+
+
